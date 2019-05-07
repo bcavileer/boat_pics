@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say voice="Polly.Joey">
+        <amazon:effect vocal-tract-length="-50%">
+            <prosody pitch="+20%">
+                Hey there!
+                <emphasis level="moderate">Caaaan't Do!</emphasis>
+            </prosody>
+        </amazon:effect>
+    </Say>
+    <Pause length="1"/>
+    <Say voice="Polly.Joey">
+        <amazon:effect vocal-tract-length="-50%">
+            <prosody pitch="+20%">I'm not able to check on the boat right now. Sorry! Bye!</prosody>
+        </amazon:effect>
+    </Say>
+</Response>
